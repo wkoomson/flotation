@@ -1,0 +1,38 @@
+{
+  "name": "flotation",
+  "version": "0.0.1",
+  "description": "A simple desktop note-taking application that supports Markdown and Latex",
+  "main": "./build/templates/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "toolbar": true,
+    "show": true,
+    "icon": "./src/img/icon.png"
+  },
+  "dependencies": {
+    "marked": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wkoomson/flotation.git"
+  },
+  "keywords": [
+    "markdown",
+    "latex",
+    "notes"
+  ],
+  "author": "Willie Koomson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wkoomson/flotation/issues"
+  },
+  "homepage": "https://github.com/wkoomson/flotation#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "^3.0.3",
+    "gulp-rename": "^1.2.2"
+  }
+}

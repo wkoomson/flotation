@@ -1,0 +1,14 @@
+{
+  "name": "flotation",
+  "description": "",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "*",
+    "materialize": "",
+    "polymer": "Polymer/polymer#^1.2.0"
+  },
+  "resolutions": {
+    "polymer": "^1.2.0",
+    "webcomponentsjs": "^0.7.2"
+  }
+}

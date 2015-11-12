@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+	head
+		title flotation
+		meta(charset="utf-8")
+		
+		// CSS
+		link(rel="stylesheet", href="../css/index.css")
+		link(rel="stylesheet", href="../vendor/materialize/dist/css/materialize.css")
+		
+		// Polymer Imports
+		link(rel="import", href="../vendor/polymer/polymer.html")
+		link(rel="import", href="markdown-editor.html")
+		
+		// JS
+		script(src="../vendor/jquery/dist/jquery.min.js")
+		script(src="../vendor/materialize/dist/js/materialize.js")
+		script(src="../js/index.js")
+		
+		script.
+			global.window = window;
+			global.$ = $;
+			global.gui = require('nw.gui');
+			global.Polymer = window.Polymer;
+			init();
+		
+	body
+		markdown-editor#.md_editor(name="markdown")
